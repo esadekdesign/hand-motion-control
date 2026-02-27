@@ -2,11 +2,20 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+## **The Idea**
 
-This contains everything you need to run your app locally.
+This experiment uses real-time hand-tracking to turn simple open- and closed-hand gestures into playful, intuitive control of a 3D particle object. 
 
-View your app in AI Studio: https://ai.studio/apps/c5a0ecd5-9378-47e5-8b61-d36f266e5fcc
+
+## **How It Works**
+
+The camera detects your hands using MediaPipe, allowing the system to interpret your gestures in real time. When you open your hand, the 3D particle object expands outward, and when you close your hand, it contracts or scales down. Every movement updates instantly, creating a direct, responsive connection between your hand motion and the behavior of the particles.
+
+
+## **Notes**
+
+Performance may vary based on camera quality and GPU strength of your computer.
+
 
 ## Run Locally
 
